@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.example.myapp
+Exec=/usr/bin/myapp --gapplication-service

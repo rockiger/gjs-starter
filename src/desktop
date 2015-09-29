@@ -1,0 +1,28 @@
+[Desktop Entry]
+Name=myapp
+GenericName=Myapp
+Exec=myapp %U
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=text/plain;
+Icon=gnome-demo
+Categories=GNOME;GTK;Utility;TextEditor;
+X-GNOME-DocPath=gedit/gedit.xml
+X-GNOME-FullName=gedit Text Editor
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gedit
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.16.3
+X-GNOME-Bugzilla-ExtraInfoScript=/usr/lib/gedit/gedit-bugreport.sh
+Actions=new-window;new-document;
+Keywords=Text;Editor;
+DBusActivatable=true
+
+[Desktop Action new-window]
+Name=Open a New Window
+Exec=gedit --new-window
+
+[Desktop Action new-document]
+Name=Open a New Document
+Exec=gedit --new-document
